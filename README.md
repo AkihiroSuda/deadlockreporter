@@ -5,7 +5,7 @@
 ## Usage
 
     $ sudo pip3 install deadlockreporter
-    $ deadlockreporter -t 30 sh -c 'cd example; java Deadlock'
+    $ deadlockreporter -t 5 sh -c 'cd example; java Deadlock'
     [DeadlockReporter] Starting `sh -c cd example; java Deadlock`, timeout=5 seconds
     Alphonse: Gaston  has bowed to me!
     Gaston: Alphonse  has bowed to me!
